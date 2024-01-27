@@ -12,7 +12,8 @@
         "custom/launch_code",        
         "custom/launch_kitty",
         "custom/launch_thunar",
-        "custom/launch_remmina"
+        "custom/launch_remmina",
+        "custom/launch_teams"
     ],
     "modules-center": ["wlr/taskbar"],
     "modules-right": ["custom/weather"],
@@ -20,6 +21,12 @@
     "include": [
         "~/.config/HyprV/waybar/conf/mesu.jsonc"
     ],
+
+    "custom/launch_teams": {
+        "format": "󰊻",
+        "on-click": "teams",
+        "tooltip": false
+    },
 
     "custom/launch_code": {
             "format": "",
