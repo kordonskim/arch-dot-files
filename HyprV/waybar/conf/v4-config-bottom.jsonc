@@ -11,7 +11,8 @@
         "custom/launch_chrome",
         "custom/launch_code",        
         "custom/launch_kitty",
-        "custom/launch_thunar"
+        "custom/launch_thunar",
+        "custom/launch_remmina"
     ],
     "modules-center": ["wlr/taskbar"],
     "modules-right": ["custom/weather"],
@@ -32,6 +33,12 @@
         "tooltip": false
     },
 
+    "custom/launch_remmina": {
+        "format": "󰢹",
+        "on-click": "remmina",
+        "tooltip": false
+    },
+    
     "custom/launch_firefox": {
         "format": "",
         "on-click": "firefox",
